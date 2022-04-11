@@ -135,9 +135,6 @@ SentencePiece로 재 토큰화한 sequence의 inference 결과는 다음과 같�
 ![](file://C:\Users\JUN\AppData\Roaming\marktext\images\2022-04-11-16-53-40-image.png)
 
 ### Metric
-
-# Metric
-
 metric으로 `gold_accuracy`와 `rouge-2`, `rouge-l`을 사용했습니다.
 
 `gold_accuracy`는 label과 pred가 완전히 일치할 확률입니다.
@@ -147,7 +144,5 @@ metric으로 `gold_accuracy`와 `rouge-2`, `rouge-l`을 사용했습니다.
 ## Results
 
 | model | Gold_acc | Rouge-2 | Rouge-l |
-
 |---|---|---|---|
-
 | transformer + SentencePiece | 0.315 | 0.748 | 0.818 |
