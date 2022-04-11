@@ -1,6 +1,4 @@
-# # Papago DL test
-
-##
+# Papago DL test
 
 22.04.09~22.04.11
 
@@ -12,7 +10,7 @@
   
 - Transformer를 구현했고, 정수 sequence를 재 토큰화하였습니다. Batch 단위 decoding으로 inference 속도를 상승시켰습니다.
   
-  ## Experimental Design
+## Experimental Design
   
 - 7000개 정도로 작은 데이터셋이므로 pretrained model의 도움을 받을 수 없습니다. 또한 어떤 corpus에서 추출된 문장인지와, source와 target 간의 관계를 모르기 때문에 데이터를 관찰해야 합니다.
   
